@@ -5,6 +5,6 @@ import store from './store'
 Vue.config.productionTip = false
 
 new Vue({
-  store,
+  store, // store: store // en es6 no hace falta describir key:value cuando son iguales
   render: h => h(App)
 }).$mount('#app')
